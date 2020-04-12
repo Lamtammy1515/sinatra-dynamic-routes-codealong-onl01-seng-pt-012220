@@ -19,6 +19,8 @@ class App < Sinatra::Base
     "Goodbye, #{@name}."
   end 
   
-  get ''
+  get '/multiply/:num1/:num2' do 
+    
+  end
 
 end
